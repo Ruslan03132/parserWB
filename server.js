@@ -9,7 +9,7 @@ async function start() {
     try {
         app.listen(PORT, () => {
             console.log("serverStarted, PORT: " + PORT);
-            getQuantityKazanWB();
+            getQuantityKazanWB().then((value) => console.log(value));
         });
     } catch (e){
         console.log(e);

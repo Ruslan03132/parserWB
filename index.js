@@ -28,4 +28,4 @@ export async function getQuantityKazanWB() {
     return result;
 }
 
-getQuantityKazanWB().then((value) => console.log(value));
+
